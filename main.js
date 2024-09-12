@@ -58,9 +58,9 @@ function win() {
             fields[comb[i][1]].classList.contains('x') &&
             fields[comb[i][2]].classList.contains('x')) {
             setTimeout(() => {
-                fields[comb[i][0]].classList.contains('active');
-                fields[comb[i][1]].classList.contains('active');
-                fields[comb[i][2]].classList.contains('active');
+                fields[comb[i][0]].classList.contains('.active');
+                fields[comb[i][1]].classList.contains('.active');
+                fields[comb[i][2]].classList.contains('.active');
                 res.innerText = 'Game over win X';
             }, 1500);
             game.removeEventListener('click', init);
@@ -68,9 +68,9 @@ function win() {
             fields[comb[i][1]].classList.contains('o') &&
             fields[comb[i][2]].classList.contains('o')) {
             setTimeout(() => {
-                fields[comb[i][0]].classList.contains('active');
-                fields[comb[i][1]].classList.contains('active');
-                fields[comb[i][2]].classList.contains('active');
+                fields[comb[i][0]].classList.contains('.active');
+                fields[comb[i][1]].classList.contains('.active');
+                fields[comb[i][2]].classList.contains('.active');
                 res.innerText = 'Game over win o';
             }, 1500);
             game.removeEventListener('click', init);
